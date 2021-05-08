@@ -14,7 +14,10 @@
       ":type": "line", 
       ":richtext": true
     },
-    "image": {":type": "text"}
+    "image": {
+      ":description": "Paste image url here",
+      ":type": "text"
+    }
   },
   "section_one": {
     ":description": "Content for section one",
@@ -27,7 +30,7 @@
       ":richtext": true
     },
     "image": {
-      ":description": "insert image url here",
+      ":description": "Paste image url here",
       ":type": "text"
     }
   },

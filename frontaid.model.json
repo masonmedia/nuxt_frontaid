@@ -4,10 +4,17 @@
     ":description": "Website name",
     ":type": "line"
   },
-  "index": {
-    ":description": "Content for the index page",
+  "banner": {
+    ":description": "Content for the page banner",
     "title": {":type": "line"},
-    "text":  {":type": "text"}
+    "text":  {":type": "text"},
+    "image": {":type": "image"}
+  },
+  "section_one": {
+    ":description": "Content for section one",
+    "title": {":type": "line"},
+    "text":  {":type": "text"},
+    "image": {":type": "image"}
   },
   "blog": {
     ":description": "List of blog posts",

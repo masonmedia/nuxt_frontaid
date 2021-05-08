@@ -19,5 +19,10 @@
         ":type": "line"
       }
     }
+  },
+  "custom-text": {
+    ":name": "Demo with rich text fields",
+    "lineWithFormatting": {":type": "line", ":richtext": true},
+    "textWithFormatting": {":type": "text", ":richtext": true},
   }
 }

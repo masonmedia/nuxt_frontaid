@@ -9,14 +9,20 @@
     "textWithFormatting": "<h1>This is a monster heading</h1><p><strong>This is lorem text ya ya ya</strong></p><p></p><ol><li><p>list</p></li><li><p>list 2</p></li><li><p>list 3</p></li><li><p>list 4</p></li></ol>"
   },
   "name": "Andrew Mason Media",
-  "index": {
+  "section_one": {
     "title": "Big time Title",
     "text": "This is some descriptive text"
   },
   "blog": [
     {
-      "title": "Yes this is a blog",
-      "text": "Blog post one"
+      "lineWithFormatting": {
+        ":type": "line", 
+        ":richtext": true
+      },
+      "textWithFormatting": {
+        ":type": "text", 
+        ":richtext": true
+      }
     }
   ]
 }

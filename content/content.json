@@ -12,5 +12,11 @@
   "index": {
     "title": "Big time Title",
     "text": "This is some descriptive text"
-  }
+  },
+  "blog": [
+    {
+      "title": "Yes this is a blog",
+      "text": "Blog post one"
+    }
+  ]
 }

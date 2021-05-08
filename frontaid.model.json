@@ -6,15 +6,30 @@
   },
   "banner": {
     ":description": "Content for the page banner",
-    "title": {":type": "line"},
-    "text":  {":type": "text"},
-    "image": {":type": "image"}
+    "title": {
+      ":type": "line", 
+      ":richtext": true
+    },
+    "text":  {
+      ":type": "line", 
+      ":richtext": true
+    },
+    "image": {":type": "text"}
   },
   "section_one": {
     ":description": "Content for section one",
-    "title": {":type": "line"},
-    "text":  {":type": "text"},
-    "image": {":type": "image"}
+    "title": {
+      ":type": "line", 
+      ":richtext": true
+    },
+    "text":  {
+      ":type": "text", 
+      ":richtext": true
+    },
+    "image": {
+      ":description": "insert image url here",
+      ":type": "text"
+    }
   },
   "blog": {
     ":description": "List of blog posts",

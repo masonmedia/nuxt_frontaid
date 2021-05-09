@@ -34,6 +34,6 @@
     "image": "https://source.unsplash.com/random/1200x700"
   },
   "section_two": {
-    "image": "https://source.unsplash.com/random/1200x700?nature"
+    "image": "https://source.unsplash.com/random/1200x700/?nature,water"
   }
 }

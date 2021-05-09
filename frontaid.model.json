@@ -16,7 +16,7 @@
     },
     "image": {
       ":description": "Paste image url here",
-      ":type": "text"
+      ":type": "line"
     }
   },
   "section_one": {
@@ -31,7 +31,7 @@
     },
     "image": {
       ":description": "Paste image url here",
-      ":type": "text"
+      ":type": "line"
     }
   },
   "section_two": {
@@ -46,7 +46,7 @@
     },
     "image": {
       ":description": "Paste image url here",
-      ":type": "text"
+      ":type": "line"
     }
   },
   "blog": {
@@ -62,7 +62,7 @@
       },
       "image": {
         ":description": "Paste image url here",
-        ":type": "text"
+        ":type": "line"
       }
     }
   }

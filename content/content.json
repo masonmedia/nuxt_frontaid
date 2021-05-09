@@ -32,5 +32,8 @@
     "title": "<strong>Welcome to this Website</strong>",
     "text": "Making things since 1999",
     "image": "https://source.unsplash.com/random/1200x700"
+  },
+  "section_two": {
+    "image": "https://source.unsplash.com/random/1200x700?nature"
   }
 }

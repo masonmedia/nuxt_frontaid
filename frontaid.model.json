@@ -1,52 +1,45 @@
 {
-  ":name": "Mason Media",
-  "name": {
-    ":description": "Website name",
-    ":type": "line"
-  },
+  ":name": "Nuxt + Frontaid",
   "page_one": {
     "banner": {
-      ":description": "Content for the page banner",
+      ":description": "Website name",
       "title": {
-        ":type": "line", 
+        ":type": "line",
         ":richtext": true
       },
-      "text":  {
-        ":type": "line", 
+      "subtitle":  {
+        ":type": "text",
         ":richtext": true
       },
-      "image": {
-        ":description": "Paste image url here",
+      "image":  {
         ":type": "line"
       }
     },
     "section_one": {
-      ":description": "Content for section one",
+      ":description": "Content for the section one",
       "title": {
-        ":type": "line", 
+        ":type": "line",
         ":richtext": true
       },
       "text":  {
-        ":type": "text", 
+        ":type": "text",
         ":richtext": true
       },
-      "image": {
-        ":description": "Paste image url here",
+      "image":  {
         ":type": "line"
       }
     },
     "section_two": {
-      ":description": "Content for section two",
+      ":description": "Content for the section two",
       "title": {
-        ":type": "line", 
+        ":type": "line",
         ":richtext": true
       },
       "text":  {
-        ":type": "text", 
+        ":type": "text",
         ":richtext": true
       },
-      "image": {
-        ":description": "Paste image url here",
+      "image":  {
         ":type": "line"
       }
     },
@@ -54,16 +47,12 @@
       ":description": "List of blog posts",
       ":items": {
         "title": {
-          ":type": "line", 
+          ":type": "line",
           ":richtext": true
         },
-        "text": {
+        "text":  {
           ":type": "text", 
           ":richtext": true
-        },
-        "image": {
-          ":description": "Paste image url here",
-          ":type": "line"
         }
       }
     }

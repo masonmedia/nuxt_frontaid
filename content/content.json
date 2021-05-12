@@ -8,12 +8,14 @@
     "section_one": {
       "title": "<strong>This is section one!</strong>",
       "text": "<p>Bacon ipsum dolor amet meatball turducken meatloaf beef ribs porchetta tenderloin pork loin salami short loin doner bresaola turkey cow swine short ribs. Pork porchetta leberkas, burgdoggen drumstick beef ribs brisket sirloin rump bresaola cow. Cupim short loin short ribs, pork belly jerky bresaola prosciutto kevin fatback buffalo pastrami pork boudin ham hock frankfurter. Ground round chicken turkey burgdoggen. Biltong burgdoggen corned beef, pork chop cow venison ham hock boudin pork loin.</p>",
-      "image": "https://source.unsplash.com/1600x900/?desert"
+      "image": "https://source.unsplash.com/1600x900/?desert",
+      "subtitle": "Making things that work so you don't have to."
     },
     "section_two": {
       "title": "<strong>This is section two!</strong>",
       "text": "<p>Bacon ipsum dolor amet meatball turducken meatloaf beef ribs porchetta tenderloin pork loin salami short loin doner bresaola turkey cow swine short ribs. Pork porchetta leberkas, burgdoggen drumstick beef ribs brisket sirloin rump bresaola cow. Cupim short loin short ribs, pork belly jerky bresaola prosciutto kevin fatback buffalo pastrami pork boudin ham hock frankfurter. Ground round chicken turkey burgdoggen. Biltong burgdoggen corned beef, pork chop cow venison ham hock boudin pork loin.</p>",
-      "image": "https://source.unsplash.com/1600x900/?water"
+      "image": "https://source.unsplash.com/1600x900/?water",
+      "subtitle": "This is a subtitle for section two ya ya ya!"
     }
   }
 }

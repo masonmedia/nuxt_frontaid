@@ -46,7 +46,8 @@
       "image": "https://source.unsplash.com/1600x900/?nature"
     },
     "banner": {
-      "title": "<strong>Page One Title!</strong>"
+      "title": "<strong>Page One Title!</strong>",
+      "text": "<strong>Providing for today. Building for tomorrow.</strong>"
     }
   }
 }

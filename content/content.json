@@ -1,13 +1,5 @@
 {
   "custom-field": "Nuxt-content demo with Frontaid CMS",
-  "custom-object": {
-    "custom-line": "page_title",
-    "custom-text": "Welcome to Citi Climate Risk"
-  },
-  "custom-text": {
-    "lineWithFormatting": "Big time Title",
-    "textWithFormatting": "<h1>This is a monster heading</h1><p><strong>This is lorem text ya ya ya</strong></p><p></p><ol><li><p>list</p></li><li><p>list 2</p></li><li><p>list 3</p></li><li><p>list 4</p></li></ol>"
-  },
   "name": "Andrew Mason Media",
   "section_one": {
     "title": "<strong>Welcome to Section One</strong>",

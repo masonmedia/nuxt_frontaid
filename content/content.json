@@ -49,6 +49,11 @@
       "title": "<strong>Page One Title!</strong>",
       "text": "<strong>Providing for today. Building for tomorrow.</strong>",
       "image": "https://source.unsplash.com/1600x900/?science"
+    },
+    "section_two": {
+      "title": "<strong>Section Two!</strong>",
+      "text": "<p>Text for bacon in the ipsum of pirk etc.</p>",
+      "image": "https://source.unsplash.com/1600x900/?abstract"
     }
   }
 }

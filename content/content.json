@@ -24,5 +24,13 @@
         "image": "https://source.unsplash.com/1600x900/?grass"
       }
     ]
+  },
+  "page_two": {
+    "section_one": {
+      "title": "<strong>Section One, Page Two</strong>"
+    },
+    "banner": {
+      "title": "Page TWO!"
+    }
   }
 }

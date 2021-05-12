@@ -4,65 +4,67 @@
     ":description": "Website name",
     ":type": "line"
   },
-  "banner": {
-    ":description": "Content for the page banner",
-    "title": {
-      ":type": "line", 
-      ":richtext": true
-    },
-    "text":  {
-      ":type": "line", 
-      ":richtext": true
-    },
-    "image": {
-      ":description": "Paste image url here",
-      ":type": "line"
-    }
-  },
-  "section_one": {
-    ":description": "Content for section one",
-    "title": {
-      ":type": "line", 
-      ":richtext": true
-    },
-    "text":  {
-      ":type": "text", 
-      ":richtext": true
-    },
-    "image": {
-      ":description": "Paste image url here",
-      ":type": "line"
-    }
-  },
-  "section_two": {
-    ":description": "Content for section two",
-    "title": {
-      ":type": "line", 
-      ":richtext": true
-    },
-    "text":  {
-      ":type": "text", 
-      ":richtext": true
-    },
-    "image": {
-      ":description": "Paste image url here",
-      ":type": "line"
-    }
-  },
-  "blog": {
-    ":description": "List of blog posts",
-    ":items": {
+  "page_one": {
+    "banner": {
+      ":description": "Content for the page banner",
       "title": {
         ":type": "line", 
         ":richtext": true
       },
-      "text": {
+      "text":  {
+        ":type": "line", 
+        ":richtext": true
+      },
+      "image": {
+        ":description": "Paste image url here",
+        ":type": "line"
+      }
+    },
+    "section_one": {
+      ":description": "Content for section one",
+      "title": {
+        ":type": "line", 
+        ":richtext": true
+      },
+      "text":  {
         ":type": "text", 
         ":richtext": true
       },
       "image": {
         ":description": "Paste image url here",
         ":type": "line"
+      }
+    },
+    "section_two": {
+      ":description": "Content for section two",
+      "title": {
+        ":type": "line", 
+        ":richtext": true
+      },
+      "text":  {
+        ":type": "text", 
+        ":richtext": true
+      },
+      "image": {
+        ":description": "Paste image url here",
+        ":type": "line"
+      }
+    },
+    "blog": {
+      ":description": "List of blog posts",
+      ":items": {
+        "title": {
+          ":type": "line", 
+          ":richtext": true
+        },
+        "text": {
+          ":type": "text", 
+          ":richtext": true
+        },
+        "image": {
+          ":description": "Paste image url here",
+          ":type": "line"
+        }
       }
     }
   }

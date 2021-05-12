@@ -1,1 +1,8 @@
-{}
+{
+  "page_one": {
+    "banner": {
+      "title": "<strong>Welcome to Mason Industries</strong>",
+      "subtitle": "<h2><strong>Build for today. Innovating for tomorrow.</strong></h2>"
+    }
+  }
+}

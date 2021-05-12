@@ -21,6 +21,10 @@
         ":type": "line",
         ":richtext": true
       },
+      "subtitle":  {
+        ":type": "line",
+        ":richtext": true
+      },
       "text":  {
         ":type": "text",
         ":richtext": true
@@ -32,6 +36,10 @@
     "section_two": {
       ":description": "Content for the section two",
       "title": {
+        ":type": "line",
+        ":richtext": true
+      },
+      "subtitle":  {
         ":type": "line",
         ":richtext": true
       },

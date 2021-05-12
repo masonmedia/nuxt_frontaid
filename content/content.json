@@ -25,5 +25,12 @@
     "banner": {
       "title": "Page TWO!"
     }
-  }
+  },
+  "blog": [
+    {
+      "title": "Post One!",
+      "text": "<p>Lorem lkoirem</p>",
+      "image": "https://source.unsplash.com/1600x900/?volcano"
+    }
+  ]
 }

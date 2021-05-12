@@ -50,21 +50,75 @@
       "image":  {
         ":type": "line"
       }
+    }
+  },
+
+  "page_two": {
+    "banner": {
+      ":description": "Website name",
+      "title": {
+        ":type": "line",
+        ":richtext": true
+      },
+      "subtitle":  {
+        ":type": "text",
+        ":richtext": true
+      },
+      "image":  {
+        ":type": "line"
+      }
     },
-    "blog": {
-      ":description": "List of blog posts",
-      ":items": {
-        "title": {
-          ":type": "line",
-          ":richtext": true
-        },
-        "text":  {
-          ":type": "text", 
-          ":richtext": true
-        },
-        "image":  {
-          ":type": "line"
-        }
+    "section_one": {
+      ":description": "Content for the section one",
+      "title": {
+        ":type": "line",
+        ":richtext": true
+      },
+      "subtitle":  {
+        ":type": "line",
+        ":richtext": true
+      },
+      "text":  {
+        ":type": "text",
+        ":richtext": true
+      },
+      "image":  {
+        ":type": "line"
+      }
+    },
+    "section_two": {
+      ":description": "Content for the section two",
+      "title": {
+        ":type": "line",
+        ":richtext": true
+      },
+      "subtitle":  {
+        ":type": "line",
+        ":richtext": true
+      },
+      "text":  {
+        ":type": "text",
+        ":richtext": true
+      },
+      "image":  {
+        ":type": "line"
+      }
+    }
+  },
+
+  "blog": {
+    ":description": "List of blog posts",
+    ":items": {
+      "title": {
+        ":type": "line",
+        ":richtext": true
+      },
+      "text":  {
+        ":type": "text", 
+        ":richtext": true
+      },
+      "image":  {
+        ":type": "line"
       }
     }
   }

@@ -38,5 +38,12 @@
   },
   "section_two": {
     "image": "https://source.unsplash.com/random/1200x700/?nature,water"
+  },
+  "page_one": {
+    "section_one": {
+      "title": "<strong>Section One!</strong>",
+      "text": "<p>This is text for section one ya ya ya.</p>",
+      "image": "https://source.unsplash.com/1600x900/?nature"
+    }
   }
 }

@@ -58,12 +58,12 @@
           ":type": "line",
           ":richtext": true
         },
-        "image":  {
-          ":type": "line"
-        },
         "text":  {
           ":type": "text", 
           ":richtext": true
+        },
+        "image":  {
+          ":type": "line"
         }
         
       }

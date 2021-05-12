@@ -52,8 +52,20 @@
       }
     },
     "blog": {
-      ":description": "List of blog posts"
-      
+      ":description": "List of blog posts",
+      ":items": {
+        "title": {
+          ":type": "line",
+          ":richtext": true
+        },
+        "text":  {
+          ":type": "text", 
+          ":richtext": true
+        },
+        "image":  {
+          ":type": "line"
+        }
+      }
     }
   }
 }

@@ -61,6 +61,9 @@
         "text":  {
           ":type": "text", 
           ":richtext": true
+        },
+        "image":  {
+          ":type": "line"
         }
       }
     }

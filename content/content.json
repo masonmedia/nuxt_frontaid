@@ -1,8 +1,8 @@
 {
   "page_one": {
     "banner": {
-      "title": "<strong>Mason Media Industries</strong>",
-      "subtitle": "<h2><strong>Building for today. Innovating for tomorrow.</strong></h2>",
+      "title": "<strong>TItle title title</strong>",
+      "subtitle": "<h2><strong>Let do this thing man</strong></h2>",
       "image": "https://source.unsplash.com/1600x900/?nature,water"
     },
     "section_one": {
@@ -27,6 +27,7 @@
     }
   },
   "blog": [
+    {},
     {
       "title": "Post One!",
       "text": "<p>Lorem lkoirem</p>",

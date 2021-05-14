@@ -27,6 +27,9 @@
     }
   },
   "blog": [
+    {
+      "title": "New item"
+    },
     {},
     {
       "title": "Post One!",

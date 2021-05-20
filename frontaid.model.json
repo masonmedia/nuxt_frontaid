@@ -109,6 +109,7 @@
   "pages": {
     ":items": {
       "title": {":type": "line"},
+      "subtitle": {":type": "line"},
       "path": {":type": "line"},
       "content": {":type": "text", ":richtext": true}
     }

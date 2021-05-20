@@ -106,6 +106,14 @@
     }
   },
 
+  "pages": {
+    ":items": {
+      "title": {":type": "line"},
+      "path": {":type": "line"},
+      "content": {":type": "text", ":richtext": true}
+    }
+  },
+
   "blog": {
     ":description": "List of blog posts",
     ":items": {

@@ -40,12 +40,6 @@
   ],
   "pages": [
     {
-      "title": "Services",
-      "path": "/services",
-      "content": "<h2>This is the services page.</h2><h4>Bit time services.</h4><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p>",
-      "subtitle": "Services page is the blervices page."
-    },
-    {
       "title": "Home",
       "path": "/home",
       "content": "<h1>This is the Home page</h1><h3>The time is know.</h3><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p>"
@@ -54,6 +48,12 @@
       "title": "About",
       "path": "/about",
       "content": "<h1>This is the About page!</h1><h4>Big time and lig time.</h4><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p>"
+    },
+    {
+      "title": "Services",
+      "path": "/services",
+      "content": "<h2>This is the services page.</h2><h4>Bit time services.</h4><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p>",
+      "subtitle": "Services page is the blervices page."
     }
   ]
 }

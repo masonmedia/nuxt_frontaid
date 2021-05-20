@@ -27,17 +27,7 @@
       "title": "Page TWO!"
     }
   },
-  "blog": [
-    {
-      "title": "New item"
-    },
-    {},
-    {
-      "title": "Post One!",
-      "text": "<p>Lorem lkoirem</p>",
-      "image": "https://source.unsplash.com/1600x900/?volcano"
-    }
-  ],
+
   "pages": [
     {
       "title": "Home",
@@ -54,6 +44,18 @@
       "path": "/services",
       "content": "<h2>This is the services page.</h2><h4>Bit time services.</h4><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p>",
       "subtitle": "Services page is the blervices page."
+    }
+  ],
+
+  "blog": [
+    {
+      "title": "New item"
+    },
+    {},
+    {
+      "title": "Post One!",
+      "text": "<p>Lorem lkoirem</p>",
+      "image": "https://source.unsplash.com/1600x900/?volcano"
     }
   ]
 }

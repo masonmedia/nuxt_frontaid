@@ -2,7 +2,7 @@
   "page_one": {
     "banner": {
       "title": "<strong>Citi Volcker Rule Training Blah Blah Blah</strong>",
-      "subtitle": "<h2><strong>Let do this thing man</strong></h2>",
+      "subtitle": "<h2><strong>Let do this thing man</strong></h2><p>Lorem lorem lorem</p>",
       "image": "https://source.unsplash.com/1600x900/?nature,water"
     },
     "section_one": {

@@ -41,17 +41,7 @@ export default {
   ],
 
   router: {
-    async extendRoutes(routes, resolve) {
-      const {$content} = require('@nuxt/content');
-      const {pages} = await $content(config.CONTENT).fetch();
-      pages.forEach(page => {
-          routes.push({
-              path: page.path,
-              component: resolve(__dirname, 'components/MetaPage.vue'),
-              meta: page,
-          });
-      });
-    }
+    
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

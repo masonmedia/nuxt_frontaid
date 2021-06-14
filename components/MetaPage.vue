@@ -1,17 +1,16 @@
 <template>
   <main>
     <h1 v-html="page.title"></h1>
-    <h4 v-html="page.subtitle"></h4>
     <div v-html="page.content"></div>
   </main>
 </template>
 
 <script>
-import config from '../config';
+import conf from '../conf';
 
 export default {
   head() {
-    return {title: `${this.page.title} | ${this.content.title}` };
+    return {title: `${this.page.title} | ${this.content.title}`};
   },
   computed: {
     page() {
@@ -19,7 +18,7 @@ export default {
     },
   },
   async asyncData({$content}) {
-    const content = await $content(config.CONTENT).fetch();
+    const content = await $content(conf.CONTENT).fetch();
     return {content};
   },
 };

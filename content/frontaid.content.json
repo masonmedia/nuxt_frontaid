@@ -1,61 +1,24 @@
 {
-  "page_one": {
-    "banner": {
-      "title": "<strong>Citi Volcker Rule Training Blah Blah Blah</strong>",
-      "subtitle": "<h2><strong>Let do this thing man</strong></h2><p>Lorem lorem lorem</p>",
-      "image": "https://source.unsplash.com/1600x900/?nature,water"
-    },
-    "section_one": {
-      "title": "<strong>This is section one!</strong>",
-      "text": "<p><strong>Bacon</strong> ipsum dolor amet meatball turducken meatloaf beef ribs porchetta tenderloin pork loin salami short loin doner <a href=\"https://google.com\" rel=\"noopener noreferrer nofollow\">turkey</a> cow swine short ribs. Pork porchetta leberkas, burgdoggen drumstick beef ribs brisket sirloin rump bresaola cow. Cupim short loin short ribs, pork belly jerky bresaola prosciutto <a href=\"https://google.com/\" rel=\"noopener noreferrer nofollow\">this is the link I want to go to google</a> fatback buffalo pastrami pork boudin ham hock frankfurter. Ground round bresaola turkey burgdoggen. Biltong burgdoggen corned beef, pork chop cow venison ham hock boudin pork loin.</p><ol><li><p>list one</p></li><li><p>list two</p></li><li><p>list three</p></li></ol>",
-      "image": "https://source.unsplash.com/1600x900/?desert",
-      "subtitle": "Making things that work so you don't have to."
-    },
-    "section_two": {
-      "title": "<strong>This is section two!</strong>",
-      "text": "<p>Bacon ipsum dolor amet meatball turducken meatloaf beef ribs porchetta tenderloin pork loin salami short loin doner bresaola turkey cow swine short ribs. Pork porchetta leberkas, burgdoggen drumstick beef ribs brisket sirloin rump bresaola cow.</p><p>Cupim short loin short ribs, pork belly jerky bresaola prosciutto kevin fatback buffalo pastrami pork boudin ham hock frankfurter. Ground round chicken turkey burgdoggen. <strong>Biltong</strong> burgdoggen corned beef, pork chop cow venison ham hock boudin pork loin.</p><p><strong>Biltong</strong> burgdoggen corned beef, pork chop cow venison ham hock boudin pork loin.</p>",
-      "image": "https://source.unsplash.com/1600x900/?water",
-      "subtitle": "This is a subtitle for section two ya ya ya!"
-    }
-  },
-  "page_two": {
-    "section_one": {
-      "title": "<strong>Section One, Page Two</strong>",
-      "text": "<p>Spicy jalapeno cupim alcatra short ribs in aute t-bone tempor flank burgdoggen cupidatat pork chop sed boudin. Tail irure do, est t-bone qui anim. Ut dolore velit, cow irure incididunt chislic cupim pork loin enim ullamco t-bone sed biltong bresaola. Venison salami tempor cupidatat pariatur sirloin, dolore pancetta officia ham hock. Nisi beef ribs culpa kielbasa pig. Tenderloin ball tip meatloaf, laboris fugiat incididunt chislic fatback cillum tempor pariatur aute.</p><p>Chislic ipsum andouille voluptate lorem tempor dolore prosciutto quis ut et. Velit pork chop occaecat shank. Salami ex t-bone, consectetur ball tip boudin tenderloin mollit chuck. Eu frankfurter reprehenderit laborum, adipisicing drumstick alcatra ball tip anim nostrud exercitation chicken. Qui tongue laboris duis aliquip, sirloin strip steak ground round in hamburger elit fatback. Occaecat est sausage, capicola kielbasa shankle officia minim qui. Et shoulder frankfurter cupim ullamco voluptate brisket sunt qui tail deserunt hamburger alcatra dolore.</p><p><br></p>"
-    },
-    "banner": {
-      "title": "Page TWO!"
-    }
+  "title": "FrontAid CMS with Nuxt Content",
+  "index": {
+    "title": "Index Page",
+    "content": "<p>Some <strong>index</strong> content...</p>"
   },
   "pages": [
     {
-      "title": "Home",
-      "path": "/home",
-      "content": "<h1>This is the Home page</h1><h3>The time is know.</h3><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p>",
-      "subtitle": "Doing it all for my baby."
+      "title": "Foo Page",
+      "path": "/foo",
+      "content": "<p>Foo content...</p><h2>Heading</h2><p>Some other content...</p>"
     },
     {
-      "title": "About",
-      "path": "/about",
-      "content": "<h1>This is the About page!</h1><h4>Big time and lig time.</h4><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p>",
-      "subtitle": "Cuz she's as fine-ay as she can be."
+      "title": "Bar Page",
+      "path": "/bar",
+      "content": "<p><strong>Bar</strong> content...</p>"
     },
     {
-      "title": "Services",
-      "subtitle": "Services page is the blervices page.",
-      "path": "/services",
-      "content": "<h2>This is the services page.</h2><h4>Bit time services.</h4><p>Bacon ipsum dolor amet doner tail burgdoggen rump, frankfurter ham jowl venison turducken chislic tri-tip. Meatball tri-tip ball tip jowl andouille biltong buffalo. Short ribs cupim tongue ground round. Pancetta ham hock beef capicola, leberkas bacon kielbasa ham filet mignon pork swine.</p>"
-    }
-  ],
-  "blog": [
-    {
-      "title": "New item"
-    },
-    {},
-    {
-      "title": "Post One!",
-      "text": "<p>Lorem lkoirem</p>",
-      "image": "https://source.unsplash.com/1600x900/?volcano"
+      "title": "Baz Page",
+      "path": "/baz",
+      "content": "<p><strong>Baz</strong> content...</p>"
     }
   ]
 }

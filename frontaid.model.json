@@ -1,24 +1,15 @@
 {
-  "title": "FrontAid CMS with Nuxt Content",
+  ":name": "FrontAid CMS Example with Nuxt Content",
+  "title": {":type": "line"},
   "index": {
-    "title": "Index Page",
-    "content": "<p>Some <strong>index</strong> content...</p>"
+    "title": {":type": "line"},
+    "content": {":type": "text", ":richtext": true}
   },
-  "pages": [
-    {
-      "title": "Foo Page",
-      "path": "/foo",
-      "content": "<p>Foo content...</p><h2>Heading</h2><p>Some other content...</p>"
-    },
-    {
-      "title": "Bar Page",
-      "path": "/bar",
-      "content": "<p><strong>Bar</strong> content...</p>"
-    },
-    {
-      "title": "Baz Page",
-      "path": "/baz",
-      "content": "<p><strong>Baz</strong> content...</p>"
+  "pages": {
+    ":items": {
+      "title": {":type": "line"},
+      "path": {":type": "line"},
+      "content": {":type": "text", ":richtext": true}
     }
-  ]
+  }
 }

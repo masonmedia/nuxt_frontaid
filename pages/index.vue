@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import conf from '../config.js';
+import conf from '../conf';
 
 export default {
   head() {

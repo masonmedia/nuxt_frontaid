@@ -1,134 +1,24 @@
 {
-  ":name": "Nuxt + Frontaid",
-  "page_one": {
-    "banner": {
-      ":description": "Website name",
-      "title": {
-        ":type": "line",
-        ":richtext": true
-      },
-      "subtitle":  {
-        ":type": "text",
-        ":richtext": true
-      },
-      "image":  {
-        ":type": "line"
-      }
-    },
-    "section_one": {
-      ":description": "Content for the section one",
-      "title": {
-        ":type": "line",
-        ":richtext": true
-      },
-      "subtitle":  {
-        ":type": "line",
-        ":richtext": true
-      },
-      "text":  {
-        ":type": "text",
-        ":richtext": true
-      },
-      "image":  {
-        ":type": "line"
-      }
-    },
-    "section_two": {
-      ":description": "Content for the section two",
-      "title": {
-        ":type": "line",
-        ":richtext": true
-      },
-      "subtitle":  {
-        ":type": "line",
-        ":richtext": true
-      },
-      "text":  {
-        ":type": "text",
-        ":richtext": true
-      },
-      "image":  {
-        ":type": "line"
-      }
-    }
+  "title": "FrontAid CMS with Nuxt Content",
+  "index": {
+    "title": "Index Page",
+    "content": "<p>Some <strong>index</strong> content...</p>"
   },
-
-  "page_two": {
-    "banner": {
-      ":description": "Website name",
-      "title": {
-        ":type": "line",
-        ":richtext": true
-      },
-      "subtitle":  {
-        ":type": "text",
-        ":richtext": true
-      },
-      "image":  {
-        ":type": "line"
-      }
+  "pages": [
+    {
+      "title": "Foo Page",
+      "path": "/foo",
+      "content": "<p>Foo content...</p><h2>Heading</h2><p>Some other content...</p>"
     },
-    "section_one": {
-      ":description": "Content for the section one",
-      "title": {
-        ":type": "line",
-        ":richtext": true
-      },
-      "subtitle":  {
-        ":type": "line",
-        ":richtext": true
-      },
-      "text":  {
-        ":type": "text",
-        ":richtext": true
-      },
-      "image":  {
-        ":type": "line"
-      }
+    {
+      "title": "Bar Page",
+      "path": "/bar",
+      "content": "<p><strong>Bar</strong> content...</p>"
     },
-    "section_two": {
-      ":description": "Content for the section two",
-      "title": {
-        ":type": "line",
-        ":richtext": true
-      },
-      "subtitle":  {
-        ":type": "line",
-        ":richtext": true
-      },
-      "text":  {
-        ":type": "text",
-        ":richtext": true
-      },
-      "image":  {
-        ":type": "line"
-      }
+    {
+      "title": "Baz Page",
+      "path": "/baz",
+      "content": "<p><strong>Baz</strong> content...</p>"
     }
-  },
-
-  "pages": {
-    ":items": {
-      "title": {":type": "line"},
-      "subtitle": {":type": "line"},
-      "path": {":type": "line"},
-      "content": {":type": "text", ":richtext": true}
-    }
-  },
-
-  "blog": {
-    ":description": "List of blog posts",
-    ":items": {
-      "title": {
-        ":type": "line",
-        ":richtext": true
-      },
-      "text":  {
-        ":type": "text", 
-        ":richtext": true
-      },
-      "image":  {
-        ":type": "line"
-      }
-    }
-  }
+  ]
 }

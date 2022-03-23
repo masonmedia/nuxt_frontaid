@@ -2,17 +2,30 @@
   ":name": "FrontAid CMS Example with Nuxt Content",
   "title": {":type": "line"},
   "page_1": {
+    "banner": {
+      "title": {":type": "line"},
+      "subtitle": {":type": "line"},
+      "cta": {":type": "line"}
+    },
+    "section_1": {
+      "title": {":type": "line"},
+      "subtitle": {":type": "line"},
+      "cta": {":type": "line"}
+    },
     "title": {":type": "line"},
-    "content": {":type": "text", ":richtext": true}
+    "content": {
+      ":type": "text", 
+      ":richtext": true
+    }
   },
   "blog": {
     ":description": "List of blog posts",
     ":items": {
       "title": {":type": "line"},
-      "text":  {
-        ":type": "text",
-        ":richtext": true
-      }
+      "description": {":type": "line"},
+      "category": {":type": "line"},
+      "image": {":type": "line"},
+      "text":  {":type": "text", ":richtext": true}
     }
   },
   "pages": {

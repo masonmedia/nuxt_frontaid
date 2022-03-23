@@ -1,7 +1,7 @@
 <template>
   <main>
-    <h1 v-html="content.index.title"></h1>
-    <div v-html="content.index.content"></div>
+    <h1 v-html="content.page_1.title"></h1>
+    <div v-html="content.page_1.subtitle"></div>
   </main>
 </template>
 

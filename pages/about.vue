@@ -1,12 +1,8 @@
 <template>
-    <b-container fuild class="d-flex justify-content-center align-items-start p-5">
-        <b-row>
-            <b-col lg="12" class="p-5">
+    <b-container fluid class="p-0">
+        <b-row align-v="center" class="min-vh-100 bg-light p-0 m-0">
+            <b-col align-self="center" lg="12" class="p-5">
                 <h1 v-html="data.title"></h1>
-            </b-col>
-            <b-col lg="12" class="p-5">
-                <!-- <h2 v-html="data.section_one.title"></h2> -->
-                <!-- <p v-html="data.section_one.text"></p> -->
             </b-col>
         </b-row>
     </b-container>
@@ -19,8 +15,12 @@ export default {
     name: 'about',
     data() {
         return {
-            data: content
+            data: content,
+            articles: ''
         }
-    }
+    },
+    async fetch() {
+      this.articles = await fetch("https://jsonplaceholder.typicode.com/posts").then((res) => res.json());
+    },
 }
 </script>

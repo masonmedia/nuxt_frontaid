@@ -11,17 +11,6 @@
       "cta": "Read more"
     }
   },
-  "page_2": {
-    "banner": {
-      "title": "What to do about About pages",
-      "subtitle": "Omg, another about page, whyyyyyyyyy",
-      "cta": "Learn more"
-    },
-    "section_1": {
-      "title": "Section One",
-      "cta": "Read more"
-    }
-  },
   "pages": [
     {
       "title": "Foo Page",

@@ -1,10 +1,17 @@
 {
   "title": "FrontAid CMS with Nuxt Content",
-  "index": {
-    "title": "Index Page",
-    "content": "<p>Some <strong>index</strong> content...</p>"
-  },
   "page_1": {
+    "banner": {
+      "title": "Welcome!",
+      "subtitle": "Home pages are home pages",
+      "cta": "Learn more"
+    },
+    "section_1": {
+      "title": "Section One",
+      "cta": "Read more"
+    }
+  },
+  "page_2": {
     "banner": {
       "title": "What to do about About pages",
       "subtitle": "Omg, another about page, whyyyyyyyyy",

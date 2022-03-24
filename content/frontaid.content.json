@@ -34,5 +34,18 @@
       "content": "<p><strong>Baz</strong> content...</p>"
     }
   ],
-  "blog": []
+  "blog": [],
+  "page_2": {
+    "banner": {
+      "title": "About page",
+      "cta": "Read it"
+    },
+    "section_1": {
+      "text": "Pork belly leberkas boudin andouille venison chislic brisket biltong jerky cow beef ribs kevin strip steak. Bresaola kielbasa spare ribs salami. Jowl sausage turkey corned beef biltong. Cow tongue pancetta capicola ground round. Sirloin tenderloin pork ground round tail drumstick pork chop rump swine burgdoggen pork loin. Meatloaf doner prosciutto cow short loin meatball ball tip pork short ribs turkey hamburger beef ribs. Cupim cow pork belly meatloaf ham hock burgdoggen sausage turducken swine capicola beef ribs pig short ribs jerky.        "
+    },
+    "section_2": {
+      "title": "Section 2",
+      "text": "Pork belly leberkas boudin andouille venison chislic brisket biltong jerky cow beef ribs kevin strip steak. Bresaola kielbasa spare ribs salami. Jowl sausage turkey corned beef biltong. Cow tongue pancetta capicola ground round. Sirloin tenderloin pork ground round tail drumstick pork chop rump swine burgdoggen pork loin. Meatloaf doner prosciutto cow short loin meatball ball tip pork short ribs turkey hamburger beef ribs. Cupim cow pork belly meatloaf ham hock burgdoggen sausage turducken swine capicola beef ribs pig short ribs jerky."
+    }
+  }
 }

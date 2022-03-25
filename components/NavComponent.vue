@@ -3,7 +3,7 @@
     <!-- As a link -->
     <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <NuxtLink to="/" class="navbar-brand">Navbar</NuxtLink>
          <b-button v-b-toggle.sidebar-right>Toggle Sidebar</b-button>
 
     </div>

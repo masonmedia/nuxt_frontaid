@@ -38,10 +38,12 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     '@nuxt/content',
+    '@nuxtjs/axios',
   ],
 
   router: {
-    
+    base: '/nuxt_frontaid/'
+    // https://github.com/masonmedia/nuxt_frontaid
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

@@ -16,8 +16,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-<<<<<<< HEAD
           publish_dir: ./dist
-=======
-          publish_dir: ./dist
->>>>>>> a391259dc63bb029ae92d803b8e8e0cce74577f6

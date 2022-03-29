@@ -39,7 +39,14 @@
       "cta": {":type": "line"}
     }
   },
-  "blog": {
+  "pages": {
+    ":items": {
+      "title": {":type": "line"},
+      "path": {":type": "line"},
+      "content": {":type": "text", ":richtext": true}
+    }
+  },
+  "posts": {
     ":description": "List of blog posts",
     ":items": {
       "title": {":type": "line"},
@@ -47,13 +54,6 @@
       "category": {":type": "line"},
       "image": {":type": "line"},
       "text":  {":type": "text", ":richtext": true}
-    }
-  },
-  "pages": {
-    ":items": {
-      "title": {":type": "line"},
-      "path": {":type": "line"},
-      "content": {":type": "text", ":richtext": true}
     }
   }
 }

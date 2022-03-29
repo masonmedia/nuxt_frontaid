@@ -1,17 +1,19 @@
 <template>
 <div class="">
     <!-- As a link -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light fixed-top">
     <div class="container-fluid">
         <NuxtLink to="/" class="navbar-brand">Navbar</NuxtLink>
-         <b-button v-b-toggle.sidebar-right>Toggle Sidebar</b-button>
+        <b-button variant="outline-dark" v-b-toggle.sidebar-right>
+          menu
+        </b-button>
 
     </div>
     </nav>
 <!-- offcanvas -->
    
-    <b-sidebar id="sidebar-right" title="Sidebar" right shadow>
-      <div class="px-3 py-2">
+    <b-sidebar id="sidebar-right" title="Sidebar" right backdrop shadow>
+      <div class="d-flex flex-column px-3 py-2">
         <router-link 
         v-for="route in this.$router.options.routes" :key="route.path"
         :to="route.path" v-html="route.name"></router-link>

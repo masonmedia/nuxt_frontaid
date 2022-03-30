@@ -22,11 +22,29 @@
         <p class="my-4" v-html="data.page_1.section_2.text"></p>
       </b-col>
     </b-row>
+     
+     <!-- posts -->
+     <b-row align-v="center" class="min-vh-100">
+      <b-col lg="8" align-self="center" class="p-5"
+      v-for="post, index in posts" :key="index">
+        <router-link :to="`/blog/${post.id}`">
+          <h5 v-html="post.id"></h5>
+          <h2 v-html="post.title"></h2>
+        </router-link>
+        <!-- <h1 v-html="post.id"></h1> -->
+        <!-- <p class="my-4" v-html="post.title"></p> -->
+        <!-- <ul v-for="item, index in frontaidData.pages" :key="index">
+          <li v-html="item.title"></li>
+          <li v-html="item.content"></li>
+        </ul> -->
+        <!-- <p>{{ frontaidData }}</p> -->
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
 <script>
-// import conf from '../conf';
+import conf from '../conf';
 import content from "../content/frontaid.content.json";
 
 export default {
@@ -36,11 +54,37 @@ export default {
   data() {
     return {
       data: content,
+      id: this.$route.params.id,
+      posts: [
+        {
+          id: "1",
+          title: "Post 1",
+          content:
+            "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
+        },
+        {
+          id: "2",
+          title: "Post 2",
+          content:
+            "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
+        },
+        {
+          id: "3",
+          title: "Post 3",
+          content:
+            "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
+        },
+      ],
     };
   },
-  // async asyncData({$content}) {
-  //   const content = await $content(conf.CONTENT).fetch();
-  //   return {content};
-  // },
+  computed: {
+    post() {
+      return this.posts.find(post => post.id === this.id);
+    },
+  },
+  async asyncData({$content}) {
+    const frontaidData = await $content(conf.CONTENT).fetch();
+    return {frontaidData};
+  },
 };
 </script>

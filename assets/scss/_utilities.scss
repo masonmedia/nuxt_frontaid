@@ -1,0 +1,35 @@
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+@mixin align($direction, $vertical, $horizontal, $text) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $horizontal;
+    align-items: $vertical;
+    text-align: $text;
+  }
+  
+  .flex-center {
+      @include align(column, center, center, center)
+  }
+  
+  .flex-left {
+      @include align(column, flex-start, center, left)
+  }
+
+  @mixin horizontal-list {
+    @include reset-list;
+  
+    li {
+      display: inline-block;
+      margin: {
+        left: -2px;
+        right: 2em;
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;900&display=swap');
+@import 'utilities';
+@import 'text';
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background: white;
+  font-family: 'Inter', Helvetica, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+//   line-height: 1.75;
+  color: #000000;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}

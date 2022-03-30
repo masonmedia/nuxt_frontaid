@@ -79,7 +79,8 @@ export default {
   },
   computed: {
     post() {
-      return this.posts.find(post => post.id === this.id);
+      // return this.data.find(post => post.id === this.id);
+      // return this.posts.find(post => post.id === this.id);
     },
   },
   async asyncData({$content}) {

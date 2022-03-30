@@ -49,6 +49,7 @@
   "posts": {
     ":description": "List of blog posts",
     ":items": {
+      "id": {":type": "line"},
       "title": {":type": "line"},
       "description": {":type": "line"},
       "category": {":type": "line"},

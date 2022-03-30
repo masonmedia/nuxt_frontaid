@@ -25,20 +25,20 @@
      
      <!-- posts -->
      <b-row align-v="center" class="min-vh-100">
-      <b-col lg="8" align-self="center" class="p-5"
+      <b-col lg="4" align-self="center" class="p-5"
+      v-for="post, index in data.posts" :key="index">
+        <router-link :to="`/blog/${post.id}`">
+          <h5 v-html="post.id"></h5>
+          <h2 v-html="post.title"></h2>
+        </router-link>
+      </b-col>
+      <!-- <b-col lg="8" align-self="center" class="p-5"
       v-for="post, index in posts" :key="index">
         <router-link :to="`/blog/${post.id}`">
           <h5 v-html="post.id"></h5>
           <h2 v-html="post.title"></h2>
         </router-link>
-        <!-- <h1 v-html="post.id"></h1> -->
-        <!-- <p class="my-4" v-html="post.title"></p> -->
-        <!-- <ul v-for="item, index in frontaidData.pages" :key="index">
-          <li v-html="item.title"></li>
-          <li v-html="item.content"></li>
-        </ul> -->
-        <!-- <p>{{ frontaidData }}</p> -->
-      </b-col>
+      </b-col> -->
     </b-row>
   </b-container>
 </template>

@@ -48,5 +48,14 @@
       "title": "Section 2",
       "text": "Pork belly leberkas boudin andouille venison chislic brisket biltong jerky cow beef ribs kevin strip steak. Bresaola kielbasa spare ribs salami. Jowl sausage turkey corned beef biltong. Cow tongue pancetta capicola ground round. Sirloin tenderloin pork ground round tail drumstick pork chop rump swine burgdoggen pork loin. Meatloaf doner prosciutto cow short loin meatball ball tip pork short ribs turkey hamburger beef ribs. Cupim cow pork belly meatloaf ham hock burgdoggen sausage turducken swine capicola beef ribs pig short ribs jerky."
     }
-  }
+  },
+  "posts": [
+    {
+      "title": "Post 1",
+      "description": "A first blog post",
+      "category": "general",
+      "text": "<h1>Post 1!</h1><p>Lorem ipsum dolor sit amet. Et maiores earum dolores id enim debitis. Ut commodi fugit eum illum vitae vel alias asperiores cum quaerat facilis et beatae dicta ut consequuntur quas. In temporibus esse vel consectetur harum eos asperiores iste et commodi aperiam vel aspernatur molestias et architecto omnis.&nbsp;</p><p>Eum neque saepe ex corrupti deserunt vel tempora molestiae aut perferendis deserunt cum assumenda magni veniam doloremque sit numquam neque. Eos quisquam alias vel libero accusantium et sapiente animi.&nbsp;</p><p>Et natus eveniet eos autem dolorem et ipsa velit et quia error non sint porro qui placeat consectetur. Et maiores sapiente est voluptatum omnis id doloremque dolor.</p>",
+      "image": "https://images.pexels.com/photos/4932184/pexels-photo-4932184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ]
 }

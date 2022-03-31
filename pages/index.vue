@@ -32,12 +32,9 @@
           <h2 v-html="post.title"></h2>
         </router-link>
       </b-col>
-      <!-- <b-col lg="8" align-self="center" class="p-5"
-      v-for="post, index in posts" :key="index">
-        <router-link :to="`/blog/${post.id}`">
-          <h5 v-html="post.id"></h5>
-          <h2 v-html="post.title"></h2>
-        </router-link>
+      <!-- <div class="w-100"></div>
+      <b-col lg="3" v-for="item in catGeneral" :key="item.category">
+          {{ item }}
       </b-col> -->
     </b-row>
   </b-container>
@@ -82,6 +79,9 @@ export default {
       // return this.data.find(post => post.id === this.id);
       // return this.posts.find(post => post.id === this.id);
     },
+    // catGeneral() {
+    //   return this.data.posts.filter(post => post.category === 'general')
+    // }
   },
   async asyncData({$content}) {
     const frontaidData = await $content(conf.CONTENT).fetch();

@@ -15,6 +15,7 @@
         <b-container>
             <b-row>
                 <b-col lg="12" class="p-5">
+                    <b-button disabled pill variant="outline-dark" size="sm" class="mb-3 px-4">{{ post.category }}</b-button>
                     <div v-html="post.text"></div>
                 </b-col>
             </b-row>
@@ -40,26 +41,26 @@ export default {
       id: this.$route.params.id,
     //   pull blog posts from json posts array
       data: content.posts,
-      posts: [
-        {
-          id: "1",
-          title: "Post 1",
-          content:
-            "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
-        },
-        {
-          id: "2",
-          title: "Post 2",
-          content:
-            "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
-        },
-        {
-          id: "3",
-          title: "Post 3",
-          content:
-            "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
-        },
-      ],
+    //   posts: [
+    //     {
+    //       id: "1",
+    //       title: "Post 1",
+    //       content:
+    //         "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
+    //     },
+    //     {
+    //       id: "2",
+    //       title: "Post 2",
+    //       content:
+    //         "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
+    //     },
+    //     {
+    //       id: "3",
+    //       title: "Post 3",
+    //       content:
+    //         "Dolor dolore est incididunt fugiat ea ea proident sunt minim esse ut. Proident consectetur irure cillum cillum adipisicing amet nostrud laboris nisi exercitation sit. Aliquip fugiat esse veniam minim.",
+    //     },
+    //   ],
     };
   },
   computed: {

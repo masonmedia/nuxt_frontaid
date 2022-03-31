@@ -8,7 +8,7 @@
                 <p>{{ post.description }}</p>
             </b-col>
             <b-col lg="12" class="p-0">
-                <b-img-lazy class="w-100" :src="post.image"></b-img-lazy>
+                <b-img-lazy class="w-100" :src="require(`@/assets/img/${post.image}`)"></b-img-lazy>
             </b-col>
         </b-row>
       

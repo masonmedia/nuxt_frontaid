@@ -15,7 +15,7 @@
         <b-container>
             <b-row>
                 <b-col lg="12" class="p-5">
-                    <p v-html="post.text"></p>
+                    <div v-html="post.text"></div>
                 </b-col>
             </b-row>
         </b-container>
@@ -27,7 +27,7 @@
 <style scoped>
 .posts h2 {
     font-weight: bold;
-    font-size: 8vmin;
+    /* font-size: 8vmin; */
 }
 </style>
 
@@ -35,6 +35,7 @@
 import content from "../../content/frontaid.content.json";
 
 export default {
+    scrollToTop: true,
   data() {
     return {
       id: this.$route.params.id,

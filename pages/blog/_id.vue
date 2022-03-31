@@ -35,7 +35,6 @@
 import content from "../../content/frontaid.content.json";
 
 export default {
-    scrollToTop: true,
   data() {
     return {
       id: this.$route.params.id,

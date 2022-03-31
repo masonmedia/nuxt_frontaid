@@ -10,6 +10,12 @@ body {
   font-weight: 400;
 //   line-height: 1.75;
   color: #000000;
+  width: 100%;
+  max-width: 1500px;
+  overflow-x: hidden;
+  navbar {
+      margin: 0 auto;
+  }
 }
 
 .page-enter-active,

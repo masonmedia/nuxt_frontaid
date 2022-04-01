@@ -18,6 +18,10 @@ Pork belly turducken ball tip, prosciutto picanha beef pork chop meatloaf fatbac
 
 ```
 What are some things to blog about?
-
+- Tech interviews: how to get better
+- How to get a developer job without a CS degree
+- How to improve your CV/Linkedin
+- How to leverage an offer at your existing company
+- 'Don't give it all away': keep some of your ideas to yourself
 
 ```

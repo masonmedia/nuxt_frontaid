@@ -15,7 +15,8 @@
         <b-container>
             <b-row>
                 <b-col lg="12" class="p-5">
-                    <b-button disabled pill variant="outline-dark" size="sm" class="mb-3 px-4">{{ post.category }}</b-button>
+                    <h6 class="text-secondary font-weight-bold text-uppercase">{{ post.category }}</h6>
+                    <!-- <b-button disabled pill variant="outline-dark" size="sm" class="px-4">{{ post.category }}</b-button> -->
                     <div v-html="post.text"></div>
                 </b-col>
             </b-row>
